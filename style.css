@@ -1,0 +1,97 @@
+
+        /* style.css */
+
+img{
+    clip-path: circle(50%);
+    margin: auto;
+    margin-top: 30px;
+    position:relative;
+    box-shadow: 0 7px 8px black;
+}
+#div1{
+    background-color: #052659;
+    padding: 2px;
+    border-radius: 10px;
+    width: auto;
+    border: 2px slateblue;
+    text-align: center;
+    color: aliceblue;
+    size: auto;
+    font-family: "Oswald", sans-serif;
+     opacity: 50%;
+    margin: auto;
+    height: 300px;
+
+}
+/* Rounded box styling */
+#rounded-box {
+    float: left;
+    width: 500px;
+    padding: 20px;
+    background-color: #7da0ca; /* Green background */
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    border-radius: 15px; /* Makes corners rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    height: min-content;
+    opacity: 50%;
+}
+#info{color: whitesmoke;}
+
+#info:hover{color: blue;
+    transition: 1000ms
+;}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+#ud {
+    font-family: 'Bangers', cursive;
+    text-align: left;
+    color: #ffffff
+;
+}
+#rounded-box,#social{float: left;}
+#social{width: 500px;
+    padding: 20px;
+    background-color:whitesmoke; /* Green background */
+    color: black;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    border-radius: 15px; /* Makes corners rounded */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    height: min-content;
+     opacity: 50%;
+  background-color: #7da0ca;}
+#o{font-family: 'Bangers', cursive;
+color: blue;
+text-align: center;
+}    
+#o:hover{color: green;
+    transition: 1000ms;
+}
+#j:hover{color: blueviolet;
+transition: 1000ms;}
+#social:hover{
+    transform: scale(1.01);opacity: 100%;
+
+}
+#rounded-box:hover{
+    opacity: 100%;
+    transform: scale(1.01);
+}
+#img:hover{
+    opacity: 100%;
+    transform: scale(1.1);
+}
+#div1:hover{
+  opacity: 100%;
+    transform: scale(1.1);
+}
+#uid{
+    background-image: url(kawaii-candle-3840x2160-17728.png);
+    background-size: 1534px ;
+}
